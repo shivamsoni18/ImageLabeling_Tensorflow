@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomModelsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+        />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_custom_models" />
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:text=""/>
+    <ImageView
+        android:id="@+id/bottom_sheet_button_image"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#CC3F51B5"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
