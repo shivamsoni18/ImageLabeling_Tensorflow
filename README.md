@@ -12,37 +12,33 @@
 
 ### Step 1: Add Firebase to your app
 
-Add Firebase to your app by following these steps.
+   Add Firebase to your app by following these steps.
 
 ### Step 2: Include the dependencies
 
-dependencies {
-  
-  implementation 'com.google.firebase:firebase-ml-vision:18.0.1'
-  
-  implementation 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
-  
-}
+      implementation 'com.google.firebase:firebase-ml-vision:18.0.1'
+      implementation 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
 
 ### Step 3: To enable this feature you need to specify your models in your app’s AndroidManifest.xml file.
 
-<application>
-  <meta-data
-      android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-      android:value="label" />
-</application>
+      <application>
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+      </application>
 
 
 ### Step 4: Include 3 files in your assets directory,
-To generate these files you need to add a Data set by clicking on AutoML option in ML Kit and Upload images with specific Labels.
+
+  To generate these files you need to add a Data set by clicking on AutoML option in ML Kit and Upload images with specific Labels.
 
 
-you need to upload minimum 10 Images of a particular label and if you add more images you will get more accurate result.
+  you need to upload minimum 10 Images of a particular label and if you add more images you will get more accurate result.
 
-after completion of Training (It will take 30-60mins to train), you will get required files then add them into "assets" directory. 
+  after completion of Training (It will take 30-60mins to train), you will get required files then add them into "assets" directory. 
 
 
-## Sample Code: 
+## Sample Code : 
 
 
     val firebaseImage = FirebaseVisionImage.fromBitmap(image!!)
