@@ -1,5 +1,9 @@
 # Implementation Image Labeling with Custom TensorFlow Lite model in Android.
 
+
+   ![alt text](https://github.com/shivamsoni18/ImageLabeling_Tensorflow/blob/master/demo.gif)
+
+
 ### Image Labeling is the process of recognizing different entities in an image.
 ### You can recognize various entities like animals, plants, food, activities, colors, things, fictional characters, drinks etc with Image Labeling.
 
