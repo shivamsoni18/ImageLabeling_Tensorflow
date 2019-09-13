@@ -8,7 +8,7 @@
 #### ML Kit's pre-built models don't meet your needs, you can use a custom TensorFlow Lite model with ML Kit.
 
 
-#### For that, you need to follow steps as below,
+For that, you need to follow steps as below,
 ### Step 1: Add Firebase to your app
 
    Add Firebase to your app by following [these steps.](https://firebase.google.com/docs/android/setup)
@@ -75,10 +75,8 @@
 
 
 
-##### Links Referred :
+### Links Referred :
 
-https://firebase.google.com/docs/ml-kit/automl-image-labeling
-
-https://firebase.google.com/docs/ml-kit/android/use-custom-models 
-
-https://firebase.google.com/docs/ml-kit/android/label-images-with-automl
+   https://firebase.google.com/docs/ml-kit/automl-image-labeling                      
+   https://firebase.google.com/docs/ml-kit/android/use-custom-models                     
+   https://firebase.google.com/docs/ml-kit/android/label-images-with-automl                            
