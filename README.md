@@ -38,13 +38,6 @@ after completion of Training (It will take 30-60mins to train), you will get req
 
 Sample Code: 
 
-analyzeImage(MediaStore.Images.Media.getBitmap(contentResolver, imageUri))
-
-private fun analyzeImage(image: Bitmap?) {
-    val localSource = FirebaseLocalModel.Builder("employee_data_2")
-            .setAssetFilePath("manifest.json")
-            .build()
-    FirebaseModelManager.getInstance().registerLocalModel(localSource)
 
     val firebaseImage = FirebaseVisionImage.fromBitmap(image!!)
 
@@ -70,12 +63,15 @@ private fun analyzeImage(image: Bitmap?) {
                 Toast.makeText(this, "There was some error in labeler ${e.message}", Toast.LENGTH_SHORT).show()
             }
 
-}
+
 
 
 
 
 Links Referred :
+
 https://firebase.google.com/docs/ml-kit/automl-image-labeling
+
 https://firebase.google.com/docs/ml-kit/android/use-custom-models
+
 https://firebase.google.com/docs/ml-kit/android/label-images-with-automl
