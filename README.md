@@ -11,7 +11,7 @@
 #### For that, you need to follow steps as below,
 ### Step 1: Add Firebase to your app
 
-   Add Firebase to your app by following these steps.
+   Add Firebase to your app by following [these steps.](https://firebase.google.com/docs/android/setup)
 
 ### Step 2: Include the dependencies
 
@@ -31,7 +31,7 @@
 
    ![alt text](https://github.com/shivamsoni18/ImageLabeling_Tensorflow/blob/master/1.png)
    
-  To generate these files you need to add a Data set by clicking on AutoML option in ML Kit and Upload images with specific Labels.
+  To generate these files you need to add a [Data set](https://console.firebase.google.com/u/0/project/fir-mlkit-22d1c/ml/automl) by clicking on AutoML option in ML Kit and Upload images with specific Labels.
 
    ![alt text](https://github.com/shivamsoni18/ImageLabeling_Tensorflow/blob/master/2.JPG)
   
